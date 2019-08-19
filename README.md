@@ -1,6 +1,6 @@
 # Random Image Grabber
 
-A command line tool that grabs images of random sizes from [Lorem Picsum](https://picsum.photos).
+A bash script that grabs images of random sizes from [Lorem Picsum](https://picsum.photos).
 
 ## Requirements
 - ```wget``` must be installed and accessible from your terminal.
