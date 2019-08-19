@@ -5,6 +5,8 @@ A command line tool that grabs images of random sizes from [Lorem Picsum](https:
 ## Requirements
 - ```wget``` must be installed and accessible from your terminal.
 
+It also uses the commands ```echo```, ```ls```, ```rm```, ```seq```, and ```sleep```, but those are likely pre-installed on your system.
+
 ## Usage
 The only argument is the number of images you want to grab (default: 10).
 
