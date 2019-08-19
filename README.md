@@ -1,6 +1,6 @@
 # Random Image Grabber
 
-A bash script that grabs images of random sizes from [Lorem Picsum](https://picsum.photos).
+A bash script that grabs images of random sizes from [Lorem Picsum](https://picsum.photos). Its purpose is for quickly grabbing a batch of randomly-sized image files to be used for testing.
 
 ## Requirements
 - ```wget``` must be installed and accessible from your terminal.
