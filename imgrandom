@@ -14,7 +14,7 @@ do
         FILE_NAME="picsum-$x-$RANDOM_WIDTH-$RANDOM_HEIGHT.png"
         echo "Getting Image: $RANDOM_WIDTH x $RANDOM_HEIGHT"
         $(wget -q -O "$FILE_NAME" https://picsum.photos/$RANDOM_WIDTH/$RANDOM_HEIGHT?random)
-        sleep 1
+        sleep 0.25
 done
 
 echo "Cleaning up empty files."
