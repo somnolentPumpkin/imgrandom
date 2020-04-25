@@ -25,6 +25,7 @@ The above example will grab 10 images of random widths and heights.
 1. Download the ```imgrandom``` file.
 2. Run ```chmod +x imgrandom```.
 3. Run ```./imgrandom```
+4. Alternatively, you can do `mv imgrandom /bin/imgrandom` or `mv imgrandom /usr/local/bin/imgrandom` to be able to run the command from anywhere.
 
 ### Why do I have less images than I specified?
 If something goes wrong during the download, wget saves an empty file. When the script is done running, it cleans up the empty files. If you have less images than expected, one or more images didn't download and was cleaned up.
